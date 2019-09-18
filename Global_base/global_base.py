@@ -34,7 +34,7 @@ class DefTool:
             except Exception as e:
                 print(e)
         sort = natsorted(sortedList)
-        argument = "a8235488a6aae009ff7e32430fee2f44"
+        argument = "1234"
         keysorted = argument + ("".join(sort))
         md = hashlib.md5()
         md.update(keysorted.encode(encoding='utf-8'))
