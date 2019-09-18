@@ -21,8 +21,7 @@ class DefTool:
         cf = cparser.ConfigParser()
         cf.read(file_path)
         baseUrl = cf.get("urlTestconf", "url_test")
-        # baseUrl = cf.get("urlPreconf", "url_pre")
-        # baseUrl = cf.get("urlProconf", "url_pro")
+  
         url = baseUrl + patch
         return url
 
